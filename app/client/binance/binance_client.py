@@ -1,7 +1,7 @@
 import asyncio
 from typing import List
 import aiohttp
-from app.client.AbstractClient import AbstractClient
+from app.client.abstract_client import AbstractClient
 
 
 class BinanceClient(AbstractClient):
