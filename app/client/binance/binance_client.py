@@ -3,7 +3,6 @@ from typing import List
 import aiohttp
 from app.client.abstract_client import AbstractClient
 
-
 class BinanceClient(AbstractClient):
     GET_KLINES_API = {
         'path': '/api/v3/klines',
